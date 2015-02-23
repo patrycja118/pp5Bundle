@@ -1,3 +1,3 @@
-patrycjapp5_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: Patrycjapp5Bundle:Default:index }
+patrycja_pp5_homepage:
+  pattern: /start
+  defaults: { _controller: Patrycjapp5Bundle:Page:index }
